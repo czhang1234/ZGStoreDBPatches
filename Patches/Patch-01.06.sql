@@ -16,7 +16,7 @@ Print 'Executing... Patch v' + @Ver
 Select @Prereqs = isnull(Count(DeployedOn),0)  from DBVersion where Sprint=@Sprint and Patch<@Patch
 Select @Installed = DeployedOn  from DBVersion where Sprint=@Sprint and Patch=@Patch
 
-If(@Installed is null AND @Prereqs = @Patch)
+If(@Installed is null AND @Prereqs < @Patch)
 BEGIN
 BEGIN TRY
 BEGIN TRAN
