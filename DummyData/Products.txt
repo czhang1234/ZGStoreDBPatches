@@ -1,0 +1,7 @@
+Id,ProductName,CatalogNumber,Description,Price,SalePrice,Weight,ShippingWeight,Height,ShippingHeight,Length,ShippingLength,Width,ShippingWidth,ProductLink,IsDownloadable,IsDownloadKeyRequired,IsDownloadKeyUnique,DownloadURL,IsReviewEnabled,TotalReviewCount,RatingScore,Active
+1,Product 1,KGH8765,This is my first product,19.95,0,1,,20,,40,,1,,,False,False,False,,True,0,,True
+3,Product 2,ABC1111,Product 2,9.9,0,1,,10,,20,,1,,,False,False,False,,True,0,,True
+5,Product 3,ABC2222,Product 3,22.5,0,2,,30,,30,,2,,,False,False,False,,True,0,,True
+6,Product 4,ABC3333,Product 3,25.95,0,3,,35,,35,,2,,,False,False,False,,True,0,,True
+7,Product 5,AAA4444,Product 5,30.9,0,3,,28,,25,,3,,,False,False,False,,True,0,,True
+8,Product 6,BBB6666,Product 6,17.9,0,2,,25,,25,,2,,,False,False,False,,True,0,,True
